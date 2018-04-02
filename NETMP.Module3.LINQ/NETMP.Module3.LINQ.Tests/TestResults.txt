@@ -1,0 +1,548 @@
+
+LINQ10_GetCustomersPerMonthAndYearsStatistics results (first 10): 
+
+Alfreds Futterkiste
+- year 1997
+	- month 8: 2022.50
+	- month 10: 2022.50
+- year 1998
+	- month 1: 2250.50
+	- month 3: 2250.50
+	- month 4: 2250.50
+Ana Trujillo Emparedados y helados
+- year 1996
+	- month 9: 88.80
+- year 1997
+	- month 8: 799.75
+	- month 11: 799.75
+- year 1998
+	- month 3: 514.40
+Antonio Moreno Taquería
+- year 1996
+	- month 11: 403.20
+- year 1997
+	- month 4: 5960.77
+	- month 5: 5960.77
+	- month 6: 5960.77
+	- month 9: 5960.77
+- year 1998
+	- month 1: 660.00
+Around the Horn
+- year 1996
+	- month 11: 1379.00
+	- month 12: 1379.00
+- year 1997
+	- month 2: 6406.90
+	- month 6: 6406.90
+	- month 10: 6406.90
+	- month 11: 6406.90
+	- month 12: 6406.90
+- year 1998
+	- month 2: 5604.75
+	- month 3: 5604.75
+	- month 4: 5604.75
+Berglunds snabbköp
+- year 1996
+	- month 8: 4324.40
+	- month 12: 4324.40
+- year 1997
+	- month 2: 13849.01
+	- month 5: 13849.01
+	- month 6: 13849.01
+	- month 8: 13849.01
+	- month 9: 13849.01
+	- month 10: 13849.01
+	- month 11: 13849.01
+	- month 12: 13849.01
+- year 1998
+	- month 1: 6754.16
+	- month 2: 6754.16
+	- month 3: 6754.16
+Blauer See Delikatessen
+- year 1997
+	- month 4: 1079.80
+	- month 6: 1079.80
+	- month 7: 1079.80
+- year 1998
+	- month 1: 2160.00
+	- month 3: 2160.00
+	- month 4: 2160.00
+Blondel père et fils
+- year 1996
+	- month 7: 9986.20
+	- month 9: 9986.20
+	- month 11: 9986.20
+- year 1997
+	- month 2: 7817.88
+	- month 6: 7817.88
+	- month 8: 7817.88
+	- month 9: 7817.88
+- year 1998
+	- month 1: 730.00
+Bólido Comidas preparadas
+- year 1996
+	- month 10: 982.00
+- year 1997
+	- month 12: 3026.85
+- year 1998
+	- month 3: 224.00
+Bon app'
+- year 1996
+	- month 10: 4074.28
+	- month 11: 4074.28
+- year 1997
+	- month 3: 11208.36
+	- month 4: 11208.36
+	- month 5: 11208.36
+	- month 9: 11208.36
+	- month 10: 11208.36
+	- month 11: 11208.36
+- year 1998
+	- month 1: 6680.61
+	- month 2: 6680.61
+	- month 3: 6680.61
+	- month 5: 6680.61
+Bottom-Dollar Markets
+- year 1996
+	- month 12: 1832.80
+- year 1997
+	- month 1: 7630.25
+	- month 4: 7630.25
+	- month 11: 7630.25
+- year 1998
+	- month 3: 11338.54
+	- month 4: 11338.54
+
+LINQ7_GroupProductsByCategoryInsideByInStockInsideTheLastByPrice results (first 10): 
+
+Beverages
+	Is in stock (first 10, sorted by price):
+		-Guaraná Fantástica - 4.5000
+		-Rhönbräu Klosterbier - 7.7500
+		-Sasquatch Ale - 14.0000
+		-Laughing Lumberjack Lager - 14.0000
+		-Outback Lager - 15.0000
+		-Chai - 18.0000
+		-Steeleye Stout - 18.0000
+		-Chartreuse verte - 18.0000
+		-Lakkalikööri - 18.0000
+		-Chang - 19.0000
+	Is not in stock (first 10):
+		-Guaraná Fantástica
+		-Rhönbräu Klosterbier
+		-Sasquatch Ale
+		-Laughing Lumberjack Lager
+		-Outback Lager
+		-Chai
+		-Steeleye Stout
+		-Chartreuse verte
+		-Lakkalikööri
+		-Chang
+		-Ipoh Coffee
+		-Côte de Blaye
+Condiments
+	Is in stock (first 10, sorted by price):
+		-Aniseed Syrup - 10.0000
+		-Original Frankfurter grüne Soße - 13.0000
+		-Genen Shouyu - 15.5000
+		-Louisiana Hot Spiced Okra - 17.0000
+		-Gula Malacca - 19.4500
+		-Louisiana Fiery Hot Pepper Sauce - 21.0500
+		-Chef Anton's Cajun Seasoning - 22.0000
+		-Grandma's Boysenberry Spread - 25.0000
+		-Sirop d'érable - 28.5000
+		-Northwoods Cranberry Sauce - 40.0000
+	Is not in stock (first 10):
+		-Aniseed Syrup
+		-Original Frankfurter grüne Soße
+		-Genen Shouyu
+		-Louisiana Hot Spiced Okra
+		-Gula Malacca
+		-Louisiana Fiery Hot Pepper Sauce
+		-Chef Anton's Cajun Seasoning
+		-Grandma's Boysenberry Spread
+		-Sirop d'érable
+		-Northwoods Cranberry Sauce
+		-Vegie-spread
+Produce
+	Is in stock (first 10, sorted by price):
+		-Longlife Tofu - 10.0000
+		-Tofu - 23.2500
+		-Uncle Bob's Organic Dried Pears - 30.0000
+		-Rössle Sauerkraut - 45.6000
+		-Manjimup Dried Apples - 53.0000
+	Is not in stock (first 10):
+		-Longlife Tofu
+		-Tofu
+		-Uncle Bob's Organic Dried Pears
+		-Rössle Sauerkraut
+		-Manjimup Dried Apples
+Meat/Poultry
+	Is in stock (first 10, sorted by price):
+		-Tourtière - 7.4500
+		-Pâté chinois - 24.0000
+		-Mishi Kobe Niku - 97.0000
+	Is not in stock (first 10):
+		-Tourtière
+		-Pâté chinois
+		-Mishi Kobe Niku
+Seafood
+	Is in stock (first 10, sorted by price):
+		-Konbu - 6.0000
+		-Rogede sild - 9.5000
+		-Jack's New England Clam Chowder - 9.6500
+		-Spegesild - 12.0000
+		-Escargots de Bourgogne - 13.2500
+		-Röd Kaviar - 15.0000
+		-Boston Crab Meat - 18.4000
+		-Inlagd Sill - 19.0000
+		-Nord-Ost Matjeshering - 25.8900
+		-Gravad lax - 26.0000
+	Is not in stock (first 10):
+		-Konbu
+		-Rogede sild
+		-Jack's New England Clam Chowder
+		-Spegesild
+		-Escargots de Bourgogne
+		-Röd Kaviar
+		-Boston Crab Meat
+		-Inlagd Sill
+		-Nord-Ost Matjeshering
+		-Gravad lax
+		-Ikura
+		-Carnarvon Tigers
+Dairy Products
+	Is in stock (first 10, sorted by price):
+		-Geitost - 2.5000
+		-Queso Cabrales - 21.0000
+		-Flotemysost - 21.5000
+		-Mascarpone Fabioli - 32.0000
+		-Camembert Pierrot - 34.0000
+		-Mozzarella di Giovanni - 34.8000
+		-Gudbrandsdalsost - 36.0000
+		-Queso Manchego La Pastora - 38.0000
+		-Raclette Courdavault - 55.0000
+	Is not in stock (first 10):
+		-Geitost
+		-Queso Cabrales
+		-Flotemysost
+		-Mascarpone Fabioli
+		-Camembert Pierrot
+		-Mozzarella di Giovanni
+		-Gudbrandsdalsost
+		-Queso Manchego La Pastora
+		-Raclette Courdavault
+Confections
+	Is in stock (first 10, sorted by price):
+		-Teatime Chocolate Biscuits - 9.2000
+		-Zaanse koeken - 9.5000
+		-Sir Rodney's Scones - 10.0000
+		-Scottish Longbreads - 12.5000
+		-Chocolade - 12.7500
+		-NuNuCa Nuß-Nougat-Creme - 14.0000
+		-Valkoinen suklaa - 16.2500
+		-Pavlova - 17.4500
+		-Maxilaku - 20.0000
+		-Gumbär Gummibärchen - 31.2300
+	Is not in stock (first 10):
+		-Teatime Chocolate Biscuits
+		-Zaanse koeken
+		-Sir Rodney's Scones
+		-Scottish Longbreads
+		-Chocolade
+		-NuNuCa Nuß-Nougat-Creme
+		-Valkoinen suklaa
+		-Pavlova
+		-Maxilaku
+		-Gumbär Gummibärchen
+		-Schoggi Schokolade
+		-Tarte au sucre
+		-Sir Rodney's Marmalade
+Grains/Cereals
+	Is in stock (first 10, sorted by price):
+		-Filo Mix - 7.0000
+		-Tunnbröd - 9.0000
+		-Singaporean Hokkien Fried Mee - 14.0000
+		-Ravioli Angelo - 19.5000
+		-Gustaf's Knäckebröd - 21.0000
+		-Wimmers gute Semmelknödel - 33.2500
+		-Gnocchi di nonna Alice - 38.0000
+	Is not in stock (first 10):
+		-Filo Mix
+		-Tunnbröd
+		-Singaporean Hokkien Fried Mee
+		-Ravioli Angelo
+		-Gustaf's Knäckebröd
+		-Wimmers gute Semmelknödel
+		-Gnocchi di nonna Alice
+
+LINQ1_CustomersWithOrdersSumMoreThan_10000 results (first 10): 
+
+Around the Horn- 13390.65
+Berglunds snabbköp- 24927.57
+Blondel père et fils- 18534.08
+Bon app'- 21963.25
+Bottom-Dollar Markets- 20801.59
+Chop-suey Chinese- 12348.88
+Eastern Connection- 14761.04
+Ernst Handel- 104874.98
+Folies gourmandes- 11666.90
+Folk och fä HB- 29567.56
+
+LINQ10_GetCustomersPerMonthStatistics results (first 10): 
+
+Alfreds Futterkiste
+- month 1: 845.80
+- month 3: 471.20
+- month 4: 933.50
+- month 8: 814.50
+- month 10: 1208.00
+Ana Trujillo Emparedados y helados
+- month 3: 514.40
+- month 8: 479.75
+- month 9: 88.80
+- month 11: 320.00
+Antonio Moreno Taquería
+- month 1: 660.00
+- month 4: 749.06
+- month 5: 1940.85
+- month 6: 2082.00
+- month 9: 1188.86
+- month 11: 403.20
+Around the Horn
+- month 2: 689.70
+- month 3: 4831.25
+- month 4: 491.50
+- month 6: 2142.90
+- month 10: 1641.00
+- month 11: 1027.20
+- month 12: 2567.10
+Berglunds snabbköp
+- month 1: 3112.71
+- month 2: 3012.35
+- month 3: 1835.70
+- month 5: 3192.65
+- month 6: 1501.08
+- month 8: 3605.60
+- month 9: 4417.08
+- month 10: 472.50
+- month 11: 1459.00
+- month 12: 2318.90
+Blauer See Delikatessen
+- month 1: 625.00
+- month 3: 677.00
+- month 4: 1143.80
+- month 6: 330.00
+- month 7: 464.00
+Blondel père et fils
+- month 1: 730.00
+- month 2: 3832.72
+- month 6: 2875.16
+- month 7: 1176.00
+- month 8: 450.00
+- month 9: 2080.00
+- month 11: 7390.20
+Bólido Comidas preparadas
+- month 3: 224.00
+- month 10: 982.00
+- month 12: 3026.85
+Bon app'
+- month 1: 843.00
+- month 2: 2896.23
+- month 3: 3969.43
+- month 4: 2550.00
+- month 5: 1611.15
+- month 9: 1930.40
+- month 10: 3820.68
+- month 11: 4342.36
+Bottom-Dollar Markets
+- month 1: 3661.05
+- month 3: 8626.32
+- month 4: 3563.42
+- month 11: 3118.00
+- month 12: 1832.80
+
+LINQ9_GetCitiesProfitabilityAndIntensityStatistics results (first 10): 
+
+Berlin - profitablility 4273.00, intensity 6.00
+México D.F. - profitablility 4716.41, intensity 5.60
+London - profitablility 8804.17, intensity 7.67
+Luleå - profitablility 24927.57, intensity 18.00
+Mannheim - profitablility 3239.80, intensity 7.00
+Strasbourg - profitablility 18534.08, intensity 11.00
+Madrid - profitablility 1900.05, intensity 2.67
+Marseille - profitablility 21963.25, intensity 17.00
+Tsawassen - profitablility 20801.59, intensity 14.00
+Buenos Aires - profitablility 2706.37, intensity 5.33
+
+LINQ5_CustomerRegistrationStatistics_Sorted results (first 10): 
+
+FISSA Fabrica Inter. Salchichas S.A. - Registration : not set/not set
+Paris spécialités - Registration : not set/not set
+Ernst Handel - Registration : 7/1996
+Rattlesnake Canyon Grocery - Registration : 7/1996
+Hanari Carnes - Registration : 7/1996
+Folk och fä HB - Registration : 7/1996
+White Clover Markets - Registration : 7/1996
+Frankenversand - Registration : 7/1996
+Suprêmes délices - Registration : 7/1996
+HILARIÓN-Abastos - Registration : 7/1996
+
+LINQ2_SuppliersAreInTheSameCountryAndCityAsACustomer_WithGrouping results (first 10): 
+
+Alfreds Futterkiste - Germany - Berlin
+- Heli Süßwaren GmbH & Co. KG- Germany - Berlin
+Around the Horn - UK - London
+- Exotic Liquids- UK - London
+B's Beverages - UK - London
+- Exotic Liquids- UK - London
+Consolidated Holdings - UK - London
+- Exotic Liquids- UK - London
+Eastern Connection - UK - London
+- Exotic Liquids- UK - London
+Mère Paillarde - Canada - Montréal
+- Ma Maison- Canada - Montréal
+North/South - UK - London
+- Exotic Liquids- UK - London
+Paris spécialités - France - Paris
+- Aux joyeux ecclésiastiques- France - Paris
+Seven Seas Imports - UK - London
+- Exotic Liquids- UK - London
+Spécialités du monde - France - Paris
+- Aux joyeux ecclésiastiques- France - Paris
+
+LINQ3_CustomersHavingOrdersMoreExpensiveThan_10000 results (first 10): 
+
+Hanari Carnes- 1
+Hungry Owl All-Night Grocers- 1
+Königlich Essen- 1
+QUICK-Stop- 3
+Rattlesnake Canyon Grocery- 2
+Save-a-lot Markets- 1
+Simons bistro- 1
+
+LINQ10_GetCustomersPerYearStatistics results (first 10): 
+
+Alfreds Futterkiste
+- year 1997: 2022.50
+- year 1998: 2250.50
+Ana Trujillo Emparedados y helados
+- year 1996: 88.80
+- year 1997: 799.75
+- year 1998: 514.40
+Antonio Moreno Taquería
+- year 1996: 403.20
+- year 1997: 5960.77
+- year 1998: 660.00
+Around the Horn
+- year 1996: 1379.00
+- year 1997: 6406.90
+- year 1998: 5604.75
+Berglunds snabbköp
+- year 1996: 4324.40
+- year 1997: 13849.01
+- year 1998: 6754.16
+Blauer See Delikatessen
+- year 1997: 1079.80
+- year 1998: 2160.00
+Blondel père et fils
+- year 1996: 9986.20
+- year 1997: 7817.88
+- year 1998: 730.00
+Bólido Comidas preparadas
+- year 1996: 982.00
+- year 1997: 3026.85
+- year 1998: 224.00
+Bon app'
+- year 1996: 4074.28
+- year 1997: 11208.36
+- year 1998: 6680.61
+Bottom-Dollar Markets
+- year 1996: 1832.80
+- year 1997: 7630.25
+- year 1998: 11338.54
+
+LINQ8_GroupProductsByPriceCategories_Test results (first 10): 
+
+Medium cost (first 10):
+- Chai - 18.0000
+- Chang - 19.0000
+- Chef Anton's Cajun Seasoning - 22.0000
+- Chef Anton's Gumbo Mix - 21.3500
+- Grandma's Boysenberry Spread - 25.0000
+- Uncle Bob's Organic Dried Pears - 30.0000
+- Northwoods Cranberry Sauce - 40.0000
+- Ikura - 31.0000
+- Queso Cabrales - 21.0000
+- Queso Manchego La Pastora - 38.0000
+Low cost (first 10):
+- Aniseed Syrup - 10.0000
+- Konbu - 6.0000
+- Teatime Chocolate Biscuits - 9.2000
+- Sir Rodney's Scones - 10.0000
+- Tunnbröd - 9.0000
+- Guaraná Fantástica - 4.5000
+- Geitost - 2.5000
+- Jack's New England Clam Chowder - 9.6500
+- Rogede sild - 9.5000
+- Zaanse koeken - 9.5000
+High cost (first 10):
+- Mishi Kobe Niku - 97.0000
+- Carnarvon Tigers - 62.5000
+- Sir Rodney's Marmalade - 81.0000
+- Schoggi Schokolade - 43.9000
+- Rössle Sauerkraut - 45.6000
+- Thüringer Rostbratwurst - 123.7900
+- Côte de Blaye - 263.5000
+- Ipoh Coffee - 46.0000
+- Manjimup Dried Apples - 53.0000
+- Raclette Courdavault - 55.0000
+
+LINQ4_CustomerRegistrationStatistics results (first 10): 
+
+Alfreds Futterkiste - Registration : 8/1997
+Ana Trujillo Emparedados y helados - Registration : 9/1996
+Antonio Moreno Taquería - Registration : 11/1996
+Around the Horn - Registration : 11/1996
+Berglunds snabbköp - Registration : 8/1996
+Blauer See Delikatessen - Registration : 4/1997
+Blondel père et fils - Registration : 7/1996
+Bólido Comidas preparadas - Registration : 10/1996
+Bon app' - Registration : 10/1996
+Bottom-Dollar Markets - Registration : 12/1996
+
+LINQ6_CustomerWithInValidContactData results (first 10): 
+
+Alfreds Futterkiste - Post code : 12209, Region: , Phone: 030-0074321
+Ana Trujillo Emparedados y helados - Post code : 05021, Region: , Phone: (5) 555-4729
+Antonio Moreno Taquería - Post code : 05023, Region: , Phone: (5) 555-3932
+Around the Horn - Post code : WA1 1DP, Region: , Phone: (171) 555-7788
+Berglunds snabbköp - Post code : S-958 22, Region: , Phone: 0921-12 34 65
+Blauer See Delikatessen - Post code : 68306, Region: , Phone: 0621-08460
+Blondel père et fils - Post code : 67000, Region: , Phone: 88.60.15.31
+Bólido Comidas preparadas - Post code : 28023, Region: , Phone: (91) 555 22 82
+Bon app' - Post code : 13008, Region: , Phone: 91.24.45.40
+Bottom-Dollar Markets - Post code : T2F 8M4, Region: BC, Phone: (604) 555-4729
+
+LINQ2_SuppliersAreInTheSameCountryAndCityAsACustomer_WithoutGrouping results (first 10): 
+
+Alfreds Futterkiste
+- Heli Süßwaren GmbH & Co. KG- Germany - Berlin
+Around the Horn
+- Exotic Liquids- UK - London
+B's Beverages
+- Exotic Liquids- UK - London
+Consolidated Holdings
+- Exotic Liquids- UK - London
+Eastern Connection
+- Exotic Liquids- UK - London
+Mère Paillarde
+- Ma Maison- Canada - Montréal
+North/South
+- Exotic Liquids- UK - London
+Paris spécialités
+- Aux joyeux ecclésiastiques- France - Paris
+Seven Seas Imports
+- Exotic Liquids- UK - London
+Spécialités du monde
+- Aux joyeux ecclésiastiques- France - Paris
