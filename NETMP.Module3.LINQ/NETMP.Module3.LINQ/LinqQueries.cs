@@ -70,8 +70,8 @@ namespace NETMP.Module3.LINQ
             return _dataSource.Customers.Select(customer => new CustomerRegistrationStatistics
                                                             {
                                                                 Customer = customer,
-                                                                RegistrationYear = customer.Orders.Any() ? customer.Orders.First().OrderDate.Year : (int?) null,
-                                                                RegistrationMonth = customer.Orders.Any()? customer.Orders.First().OrderDate.Month : (int?) null
+                                                                RegistrationYear = customer.Orders.Any() ? customer.Orders.Min(order => order.OrderDate).Year : (int?) null,
+                                                                RegistrationMonth = customer.Orders.Any()? customer.Orders.Min(order => order.OrderDate).Month : (int?) null
             });
         }
 
